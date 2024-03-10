@@ -7,8 +7,6 @@ Das Modul wird über das nachfolgend abgebildete Icon gestartet:
 
 ## Überblick
 
-![Icon](./.images/dummy.png) 
-
 + Die Auswahl der anzuzeigenden Daten erfolgt über das Anklicken eines der Reiter
   +  **Rangliste**
   +  **Mitgliederbeteiligung** oder
@@ -18,25 +16,35 @@ Das Modul wird über das nachfolgend abgebildete Icon gestartet:
   Voreingestellt ist die laufende GEX-Runde. Wenn für diesen Zeitraum noch keine Daten an das Modul übermittelt wurden, erscheint der Hinweis, dass zunächst die GEX im Spiel besucht werden muss.
 + Der Verlauf zeigt eine grafische Darstellung über die Ergebnisse der zurückliegenden GEX-Runden.
 
-**Wichtig:** Es können nur die Daten dargestellt werden, die der FoE-Helfer auch erfasst hat. Dazu ist es notwendig, dass nach Abschluss einer GEX-Runde (aber vor Beginn der nächsten Runde) im Spiel einmal die Karte der GEX geöffnet wird, um die korrekten Endwerte zu bekommen.
+**Hinweis:** Es können nur die Daten dargestellt werden, die der FoE-Helfer auch erfasst hat. Um auch für zurückliegende GEX-Runden die tatsächlichen Leistungen anzeigen zu können, ist es notwendig, dass nach Abschluss einer GEX-Runde (aber vor Beginn der nächsten Runde) im Spiel einmal die Karte der GEX geöffnet wird, um die korrekten Endwerte zu bekommen.
 
 ## Rangliste
 
-![Rangliste](./.images/gex-rangliste.png) 
+![GEX-Helfer](./.images/gex-rangliste.png) 
 
-In der Rangliste wird die Platzierung der an der GEX-Runde beteilgten Gilden mit Gildenwappen, Gildennamen und Spielwelt sowie dem Link auf die Gilde in der Datenbank https://foe.scoredb.io angezeigt. Es folgt der erreichte Prozentsatz (64 Begegnungen je Spieler entspricht 100%) sowie weitere Informationen zu den Gilden, einschließlich der bisher erreichten Platzierungen.
+In der Rangliste wird die Platzierung der an der GEX-Runde beteiligten Gilden mit Gildenwappen, Gildennamen und Spielwelt sowie dem Link auf die Gilde in der Datenbank https://foe.scoredb.io angezeigt. Es folgt der erreichte Prozentsatz (64 Begegnungen je Spieler entspricht 100%) sowie weitere Informationen zu den Gilden, einschließlich der bisher erreichten Platzierungen.
 
 ## Mitgliederbeteiligung
 
 ![Mitgliederbeteiligung](./.images/gex-mitglieder.png) 
 
-Hier fehlt noch Text
+In der Mitgliederbeteiligung werden in der Kopfzeile die von der gesamten Gilde erreichte Gesamtpunktzahl, die Anzahl der Gildenmitglieder und die absolvierten Begegnungen (Anzahl und Prozentsatz) angezeigt.
+
+Darunter werden in Listenform für alle Spieler, die zum Start der GEX in der Gilde waren, angezeigt:
++ Platzierung
++ Symbol für die erreichte GEX-Stufe
++ Spieler (Avatar, Spielername und Link auf den Eintrag in der Datenbank https://foe.scoredb.io)
++ Erreichte Punktzahl
++ Nummer der erreichten GEX-Stufe
++ Anzahl der absolvierten Begegnungen
+
+Durch Anklicken der entsprechenden Spalte in der Kopfzeile der Liste erfolgt eine Sortierung der Liste nach diesem Kriterium. Erneutes Anklicken wechselt zwischen Abwärts- und Aufwärts-Sortierung.
 
 ## Verlauf
 
 ![Verlauf](./.images/gex-verlauf.png) 
 
-In einer grafischen Übersicht wird hier die Leistung der Gilde in der aktuellen und in zurückliegenden GEX-Runden dargestellt. Berücksichtigt werden dabei:
+In einer grafischen Übersicht wird die Leistung der Gilde in der aktuellen und in zurückliegenden GEX-Runden dargestellt. Berücksichtigt werden dabei:
 + Erreichte Gesamtpunktzahl
 + Gesamtanzahl der absolvierten Begegnungen
 + Anzahl der Mitglieder in der Gilde
@@ -47,7 +55,7 @@ Diese Angaben werden für die jeweilige GEX-Runde auch in tabellarischer Form mi
 
 Wird der Mauszeiger auf einen der Datennamen in der Legende am unteren Rand des Fensters bewegt, werden diese Daten in der Grafik hervorgehoben, während die restlichen Daten nur noch schwach dargestellt werden.
 
-Durch Anklicken eines oder mehrerer der Datennamen werden die entsprechenden Daten ausgeblendet. Erneutes Anklicken blendet die jeweiligen Daten wieder ein.
+Durch Anklicken eines oder mehrerer Datennamen werden die entsprechenden Daten ausgeblendet. Erneutes Anklicken blendet die jeweiligen Daten wieder ein.
 
 Die maximale Anzahl der dargestellten GEX-Runden sowie die Auswahl der in die Grafik aufzunehmenden Daten können an die eigenen Bedürfnisse angepasst werden. Dies wird im nächsten Abschnitt **Einstellungen und Datenexport** erläutert.
 
